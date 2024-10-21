@@ -50,3 +50,5 @@ var Human = /** @class */ (function () {
     return Human;
 }());
 new Human("blue");
+
+

@@ -14,7 +14,7 @@ console.log(a);
 //symbols
 
 //Arrays
-let arr: [];
+let arr= [];
 
 //Tuples
 let tuple: [number, string] = [5, "hj"];

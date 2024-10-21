@@ -1,12 +1,10 @@
+"use strict";
 //Union
-
 var data: string | number;
 data = "ali";
 console.log(data.indexOf("i"));
 data = 16;
-console.log(typeof data.toString());
-
-
+console.log(data.toString());
 
 
 //Intersection

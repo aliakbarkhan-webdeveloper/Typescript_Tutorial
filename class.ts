@@ -9,11 +9,36 @@ class Airpod {
     console.log("music is playing");
   }
 
-  switchMode(){
-console.log("music is switched");
+  switchMode() {
+    console.log("Music is Switching");
 
+    setTimeout(() => {
+      console.log("music is switched");
+    }, 5000);
   }
 }
 
 
-new Airpod().switchMode();
+class SamsungAirpod extends Airpod{
+company="samsung";
+}
+
+new SamsungAirpod().switchMode();
+
+
+
+
+//class with constructor
+
+class Human{
+public eyeColor:string;
+
+constructor(eye:string){
+this.eyeColor=eye;
+console.log("The color of eye is: "+this.eyeColor);
+
+}
+
+}
+
+new Human("blue");

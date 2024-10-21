@@ -1,6 +1,6 @@
 "use strict";
 //Union
-var data: string | number;
+let data: string | number;
 data = "ali";
 console.log(data.indexOf("i"));
 data = 16;
@@ -18,7 +18,7 @@ type teacherData = {
 
 type school = studentData & teacherData;
 
-var schoolData: school = {
+let schoolData: school = {
   Qualification: "BS",
   name: "ali",
 };

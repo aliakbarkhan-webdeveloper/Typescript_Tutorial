@@ -34,5 +34,4 @@ class Human {
     console.log("The color of eye is: " + this.eyeColor);
   }
 }
-
 new Human("blue");

@@ -49,6 +49,5 @@ var Human = /** @class */ (function () {
     }
     return Human;
 }());
-new Human("blue");
-
-
+var me = new Human("blue");
+console.log(me.eyeColor);

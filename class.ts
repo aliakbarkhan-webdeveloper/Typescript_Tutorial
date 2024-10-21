@@ -27,11 +27,12 @@ new SamsungAirpod().switchMode();
 //class with constructor
 
 class Human {
-  public eyeColor: string;
+  private eyeColor: string;
 
   constructor(eye: string) {
     this.eyeColor = eye;
     console.log("The color of eye is: " + this.eyeColor);
   }
 }
-new Human("blue");
+let me=new Human("blue");
+console.log(me.eyeColor);

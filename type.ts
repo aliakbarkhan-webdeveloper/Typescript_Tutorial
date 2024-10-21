@@ -13,12 +13,11 @@ let schoolData: school = {
   name: "ali",
 };
 
-console.log(typeof(schoolData));
-
+console.log(typeof schoolData);
 
 //Type aliases
 
-type age=string|number;
+type age = string | number;
 
-let ali:age=24;
+let ali: age = 24;
 console.log(ali);

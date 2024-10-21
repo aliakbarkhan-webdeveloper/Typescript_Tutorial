@@ -14,3 +14,11 @@ let schoolData: school = {
 };
 
 console.log(typeof(schoolData));
+
+
+//Type aliases
+
+type age=string|number;
+
+let ali:age=24;
+console.log(ali);

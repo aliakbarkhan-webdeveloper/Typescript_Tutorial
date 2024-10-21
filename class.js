@@ -9,6 +9,8 @@ var Airpod = /** @class */ (function () {
         console.log("music is playing");
     };
     Airpod.prototype.switchMode = function () {
+        console.log("music is switched");
     };
     return Airpod;
 }());
+new Airpod().switchMode();

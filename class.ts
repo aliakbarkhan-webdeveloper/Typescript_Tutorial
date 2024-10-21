@@ -10,8 +10,10 @@ class Airpod {
   }
 
   switchMode(){
+console.log("music is switched");
 
   }
 }
 
 
+new Airpod().switchMode();

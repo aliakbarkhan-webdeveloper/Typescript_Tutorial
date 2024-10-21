@@ -18,27 +18,21 @@ class Airpod {
   }
 }
 
-
-class SamsungAirpod extends Airpod{
-company="samsung";
+class SamsungAirpod extends Airpod {
+  company = "samsung";
 }
 
 new SamsungAirpod().switchMode();
 
-
-
-
 //class with constructor
 
-class Human{
-public eyeColor:string;
+class Human {
+  public eyeColor: string;
 
-constructor(eye:string){
-this.eyeColor=eye;
-console.log("The color of eye is: "+this.eyeColor);
-
-}
-
+  constructor(eye: string) {
+    this.eyeColor = eye;
+    console.log("The color of eye is: " + this.eyeColor);
+  }
 }
 
 new Human("blue");

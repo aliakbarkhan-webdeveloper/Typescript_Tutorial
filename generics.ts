@@ -1,5 +1,10 @@
 `use strict`
-function generics(a:number):number{
-    return a;
-}
-generics(6);
+
+//function generic
+
+function funcGen <T> (a:T,b:string):void{
+
+    console.log(`the type of generic is ${typeof a} and the other data type is ${typeof b}`);
+    
+
+}funcGen <boolean>(false,"true");

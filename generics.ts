@@ -25,4 +25,16 @@ function employee(obj: employData<string>) {
     `);
 }
 
-employee({name:"ali",age:24,key:"akdkasd7wdas"});
+employee({ name: "ali", age: 24, key: "akdkasd7wdas" });
+
+//Class generics
+
+class bottleMaker<T> {
+  constructor(public data: T) {
+    console.log(typeof data);
+  }
+}
+new bottleMaker(false);
+new bottleMaker(12);
+new bottleMaker("asd");
+new bottleMaker(1715271572n);
